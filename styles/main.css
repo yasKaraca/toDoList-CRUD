@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "Special Elite";
+    src: url("SpecialElite-Regular.ttf") format("ttf"),
+         url("specialelite-regular-webfont.woff2") format("woff2"),
+         url("specialelite-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Oxygen";
+    src: url("Oxygen-Regular.ttf") format("ttf"),
+    url("oxygen-regular-webfont.woff2") format("woff2"),
+    url("oxygen-regular-webfont.woff") format("woff");
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    background-color: floralwhite;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
+
+.trait {
+    width: 60%;
+    height: 5px;
+    margin: 1vh auto 0 auto;
+    background-color: gold;
+    border-radius: 5px;
+}
+
+main {
+    width: 60%;
+    margin: 5vh auto 0 auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.button-style {
+    background-color: #CA0000;
+    color: white;
+    padding: 0.7em 2em 0.7em 2em;
+    border-radius: 2px;
+}
+
+.button-style:hover {
+    background-color: #F00000;
+}
+
+.todo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5vh;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    border: solid black 2px;
+}
+
+.todo {
+    margin-bottom: 2vh;
+    width: 30%;
+    background-color: mistyrose;
+    text-align: center;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+.todo h4 {
+    border-bottom: 2px solid black;
+    padding-bottom: 1em;
+}
+
+.todo a {
+    width: 100%;
+}
+
+.todotrait {
+    height: 1px;
+    background-color: black;
+}
+
+.todo-link {
+    height: 4vh;
+}
+
+/* ------------------------------ */
+
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-item label{
+    display: block;
+    width: 100%;
+}
+
+.form-item label {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 1.2rem;
+
+}
+
+.titre input{
+    width: 50%;
+    height: 5vh;
+    font-size: 1.5rem;
+}
+.resume textarea {
+    width: 50%;
+    height: 10vh;
+    font-size: 1.2rem;
+}
+
+.date input {
+    height: 4vh;
+    font-size: 1.2rem;
+}
+
+.form-send {
+    margin-top: 2vh;
+    width: 30%;
+    font-size: 1.5rem;
+    background-color: lightskyblue;
+    color: floralwhite;
+}
+
+/* -------------------------------- */
+
+.details {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: mistyrose;
+    padding: 1em;
+
+}
+ .details a {
+     line-height: 2em;
+ }
+
+ .form-delete {
+     margin-top: 2vh;
+     width: 30%;
+     font-size: 1.2rem;
+     background-color: #CA0000;
+     color: floralwhite;
+ }
